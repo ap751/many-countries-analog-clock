@@ -1,0 +1,47 @@
+#india,#london,#paris,#bangkok,#newyork,#sydney,#berlin,#moskow{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+
+    background-image: url(clock.png) ;
+    background-size: 100%;
+   float: left;
+    margin: 37px;
+}
+
+
+#hour,#lhour,#phour,#bhour,#nhour,#shour,#behour,#mhour{
+    position: absolute;
+    height: 25%;
+    width: 3%;
+    background-color: black;
+    top: 25.8%;
+    left: 48.3%;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+#minute,#lminute,#pminute,#bminute,#nminute,#sminute,#beminute,#mminute{
+    position: absolute;
+    height: 31%;
+    width: 1.5%;
+    background-color: blue;
+    top: 19.3%;
+    left: 49%;
+    transform-origin: bottom;
+    border-radius: 102px;
+}
+#second,#lsecond,#psecond,#bsecond,#nsecond,#ssecond,#besecond,#msecond{
+    position: absolute;
+    height: 35%;
+    width: 1%;
+    background-color:green;
+    top: 15%;
+    left: 49.2%;
+    transform-origin: bottom;
+    border-radius: 10px;
+  
+   
+}
+
